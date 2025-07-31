@@ -2,9 +2,9 @@
   "name": "mcp-server-vercel",
   "version": "1.0.0",
   "description": "",
-  "main": "index.cjs",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.cjs",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
