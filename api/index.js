@@ -171,13 +171,6 @@ app.get('/health', (req, res) => {
 });
 
 // Export for Vercel
-module.exports = serverless(app);
+export default serverless(app);
 
-
-if (require.main === module) {
-  const PORT = process.env.PORT || 3000;
-  app.listen(PORT, () => {
-    console.log(`Local server running at http://localhost:${PORT}`);
-  });
-}
 
